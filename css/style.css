@@ -1,0 +1,65 @@
+body {
+    font-size: 20px;
+}
+
+.container {
+    width: 400px;
+    box-shadow: 0 0 20px 1px #c6c6c6;
+    position: relative;
+    
+}
+.display {
+    width: 100%;
+    height: 20vh;
+    font-size: 2em;
+}
+.buttons {
+    font-size: 1.5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #f5f5f577;
+    height: 80vh;
+}
+
+.buttons > div {
+    border: 0.2px solid rgba(231, 231, 231, 0.89);
+    cursor: context-menu;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    user-select: none;
+    
+}
+#equal {
+    background-color: rgb(0, 119, 255);
+}
+
+.buttons > div:hover {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+#equal:hover {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+@media (max-width: 1100px) {
+    
+    section {
+        width: 100%;
+        height: 100vh;
+    }
+    .container {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        left: 50%;
+    transform: translateX(-50%);
+    }
+    .buttons {
+        width: 100%;
+        height: 80vh;
+    }
+    .display {
+        width: 100%;
+        height: 20vh;
+    }
+}
