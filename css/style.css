@@ -6,7 +6,7 @@ body {
     width: 400px;
     box-shadow: 0 0 20px 1px #c6c6c6;
     position: relative;
-    
+    height: 80vh
 }
 .display {
     width: 100%;
